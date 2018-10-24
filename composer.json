@@ -48,5 +48,5 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "bin": ["larafull"]
+    "bin": ["builds/larafull"]
 }
