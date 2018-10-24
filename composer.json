@@ -46,7 +46,7 @@
             "@php application app:rename"
         ]
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "bin": ["builds/larafull"]
 }
