@@ -19,7 +19,7 @@ class NewCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Usage: larafull new project_name (like laravel new)';
 
     /**
      * Execute the console command.
@@ -28,7 +28,7 @@ class NewCommand extends Command
      */
     public function handle()
     {
-        //
+        exec('composer create-project --prefer-dist larafull/larafull:dev-master ' . $this->argument('project_name'));
     }
 
     /**
